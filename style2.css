@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: url(fm1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #e91e63;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4e4b5076;
+    padding: 20px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+} 
+
+th, td {
+    color: #fff;
+}
+
+.borrar {
+    background-color: #f35200;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.producs {
+    padding: 70px 0 0 0;
+    text-align: center;
+}
+h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.producs-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.product img {
+    width: 250px;
+}
+.product h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+
+ .product p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+
+ .precio {
+    color: #f35200 !important;
+ }
+
+.btn-2 {
+    display: inline-block;
+    padding: 8px 17px;
+    border: 1px solid #f35200;
+    border-radius: 200px;
+    color: #fff;
+ }
+
+ .btn-2:hover {
+    background-color: #f35200;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
